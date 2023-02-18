@@ -1,0 +1,12 @@
+{
+  "name": "turbo-repo-filter-dependencies-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "turbo run build",
+    "build-filter-dependencies": "turbo run build --filter=@turbo-repo-filter-dependencies-bug/second^..."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "turbo": "1.8.0"
+  }
+}

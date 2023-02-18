@@ -1,0 +1,10 @@
+{
+  "name": "@turbo-repo-filter-dependencies-bug/second",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node -v"
+  },
+  "dependencies": {
+    "@turbo-repo-filter-dependencies-bug/first": "workspace:*"
+  }
+}
